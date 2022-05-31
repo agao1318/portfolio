@@ -279,31 +279,32 @@ label[for="drop-nav"] {
     .contact input[type="email"] {
         flex-basis: 100%;
     }
-}
-
-label[for="drop-nav"] {
-    display: block;
-    padding: 14px 20px;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    text-align: right;
-    cursor: pointer;
-}
-
-.main-menu ul {
-    display: none;
-}
-
-#drop-nav:checked+ul {
-
-    display: block
-}
-
-.main-menu ul .menu-item {
-    display: block;
-    text-align: right;
-    margin: 0;
 
 
+    label[for="drop-nav"] {
+        display: block;
+        padding: 14px 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    .main-menu ul {
+        display: none;
+    }
+
+    #drop-nav:checked+ul {
+
+        display: block
+    }
+
+    .main-menu ul .menu-item {
+        display: block;
+        text-align: right;
+        margin: 0;
+
+
+    }
 }
